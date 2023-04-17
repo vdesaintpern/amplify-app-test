@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          API URL = {process.env.API_URL}
+          API URL = {process.env.REACT_APP_API_URL}
         </p>
         <p>
           MY NEW FEATURE HERE
